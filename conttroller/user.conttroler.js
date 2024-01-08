@@ -2,7 +2,6 @@ const { default: mongoose } = require('mongoose')
 const user =require('../models/Schema')
 const cartmodels = require('../models/cartSchema')
 const productmodel = require('../models/productSchema')
-const { filter } = require('@chakra-ui/react')
 const e = require('express')
 
 const signuppost =async(req,res)=>{
